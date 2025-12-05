@@ -1,1 +1,155 @@
-/* Your styles here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+h2 {
+  display: inline-block;
+  text-align: left;
+  font-weight: 700;
+  padding-top: 1em;
+  padding-right: 0.7em;
+  font-size: 1.2em;
+}
+
+header {
+  background-color: #222f3f;
+}
+
+nav {
+  background-color: #364759;
+  color: white;
+  padding-left: 2.5em;
+  padding-block: 0.5em;
+  font-weight: 500;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 1.5em;
+  opacity: 90%;
+}
+
+main {
+  background-color: #e9edee;
+  padding-inline: 2.5em;
+}
+
+main section {
+  margin-block: 2.5em;
+}
+
+footer {
+  background-color: #222f3f;
+  text-align: center;
+}
+
+footer section {
+  background-color: #364759;
+  padding-block: 1em;
+}
+
+footer img {
+  width: 190px;
+  padding-block: 4em;
+}
+
+.PreviewImage {
+  display: inline-block;
+  width: 24%;
+  margin-inline: auto;
+  padding: 1em;
+}
+
+.PreviewImage img {
+  width: 100%;
+  aspect-ratio: 10/12;
+  object-fit: cover;
+
+  border-radius: 10%;
+  box-shadow: 10px 10px 20px #dedede;
+}
+
+.LongBanner img {
+  width: 100%;
+}
+
+.LongBanner div {
+  width: 100%;
+  text-align: center;
+}
+
+.LongBanner h2 {
+  padding-top: 0.2em;
+}
+
+#PerfectGift {
+  background-color: white;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.MainLink {
+  color: #185668;
+  text-decoration: none;
+  opacity: 90%;
+  font-weight: 750;
+}
+
+footer .MainLink {
+  color: white;
+  text-decoration: underline;
+}
+
+#PerfectGiftTitle {
+  width: 95%;
+  margin-inline: auto;
+  text-align: left;
+}
+
+#PreviewImageBlock {
+  width: 100%;
+}
+
+#upperlogo {
+  width: 170px;
+  padding-top: 1em;
+  padding-bottom: 1.1em;
+  padding-left: 2.5em;
+}
+
+#GiftCards {
+  background-color: #f56600;
+  text-align: center;
+  padding-block: 0.5em;
+  font-weight: 500;
+}
+
+#GiftCards a,
+#GiftGuides a {
+  color: white;
+  text-decoration: none;
+  opacity: 90%;
+}
+
+#GiftGuides {
+  background-image: url("../images/bg-image.png");
+  background-position: top left;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+#GiftGuides div {
+  padding-block: 1em;
+}
+
+#GiftGuides #mainA {
+  font-size: 2em;
+}
