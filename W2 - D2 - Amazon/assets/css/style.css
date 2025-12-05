@@ -26,6 +26,7 @@ nav {
   padding-left: 2.5em;
   padding-block: 0.5em;
   font-weight: 500;
+  border-bottom: 1px solid #1d2d3a;
 }
 
 nav a {
@@ -52,6 +53,7 @@ footer {
 footer section {
   background-color: #364759;
   padding-block: 1em;
+  border-top: 1px solid #1f2d38;
 }
 
 footer img {
